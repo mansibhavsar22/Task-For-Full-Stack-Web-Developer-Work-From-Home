@@ -210,10 +210,15 @@ select {
   margin-right: 10px;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
   .offer-container {
     padding: 10px;
+  }
+
+  .offer-text {
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
   }
 
   .offer-card {
